@@ -1,0 +1,122 @@
+/* Title Work */
+#titletag {
+    text-align: center;
+    position: sticky;
+    margin: 8px;
+    padding: 8px;
+    top: 0;
+    border: lightblue;
+    border-style: solid;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+#navlistul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    top: 0;
+    text-align: center;
+    background-color: lightblue;
+    position: sticky;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*  Body Work */
+
+body {
+    padding: auto;
+    margin: auto;
+    overflow: auto;
+}
+
+#logo {
+    text-align: center;
+    position: sticky;
+    margin: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    top: 0;
+    border: lightblue;
+    border-style: solid;
+    text-align: center;
+}
+
+#titlebox {
+    text-align: center;
+    position: sticky;
+    margin: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    top: 0;
+    border: lightblue;
+    border-style: solid;
+    text-align: center;
+}
+
+#box {
+    text-align: center;
+    margin: 7%;
+    padding: 10%;
+    top: 0;
+    border: lightblue;
+    border-style: solid;
+}
+/* Product Page Work */
+#productbox {
+    display:flexbox;
+    margin: 10%;
+    padding: 1%;
+    top: 0;
+    border: lightblue;
+    border-style: solid;
+}
+
+#productdesc {
+    text-align: right;
+}
+
+#productpic {
+    width: 100px;
+    height: 100px;
+    object-position: left;
+}
+/* Gallery Work */
+
+#gallery {
+    margin: auto;
+    width: 20%;
+}
+#galleryimg {
+    width: 100%;
+    height: auto;
+}
+/* Footer Work */
+#footer {
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#footertext {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
