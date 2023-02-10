@@ -5,7 +5,7 @@
     margin: 8px;
     padding: 8px;
     top: 0;
-    border: lightblue;
+    border: #495fa6;
     border-style: solid;
     text-align: center;
     text-decoration: wavy;
@@ -17,7 +17,7 @@
     padding: 8px;
     top: 0;
     text-align: center;
-    background-color: lightblue;
+    background-color: #495fa6;
     position: sticky;
 }
 
@@ -27,6 +27,11 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+#logoheader {
+    height: 75px;
+    width: 200px;
 }
 
 /*  Body Work */
@@ -39,15 +44,21 @@ body {
 
 #logo {
     text-align: center;
-    position: sticky;
     margin: 2%;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 2%;
     top: 0;
-    border: lightblue;
-    border-style: solid;
+    border: #495fa6;
+    border-style: none;
     text-align: center;
+}
+
+#logoimg {
+    border-radius: 10%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 #titlebox {
@@ -58,8 +69,8 @@ body {
     margin-right: 30%;
     padding: 2%;
     top: 0;
-    border: lightblue;
-    border-style: solid;
+    /*border: #495fa6;
+    border-style:none;*/
     text-align: center;
 }
 
@@ -68,45 +79,59 @@ body {
     margin: 7%;
     padding: 10%;
     top: 0;
-    border: lightblue;
+    border: #495fa6;
     border-style: solid;
 }
 /* Product Page Work */
 #productbox {
-    display:flexbox;
-    margin: 10%;
-    padding: 1%;
-    top: 0;
-    border: lightblue;
+    margin: 5%;
+    padding: 5%;
+    border: #495fa6;
     border-style: solid;
+    width:fit-content;
+    display: flex;
 }
 
 #productdesc {
+    float: right;
     text-align: right;
+    clear: right;
+    margin-left: auto;
 }
 
 #productpic {
-    width: 100px;
-    height: 100px;
-    object-position: left;
+    border-radius: 10%;
+    height: 30%;
+    width: 30%;
+    float: left;
 }
+
+#contactusbutton {
+    color: white;
+    background-color: #495fa6;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
 /* Gallery Work */
 
 #gallery {
     margin: auto;
-    width: 20%;
+    width: 100%;
 }
 #galleryimg {
     width: 100%;
     height: auto;
+    display: inline-block;
 }
 /* Footer Work */
 #footer {
     margin: 0;
     padding: 8px;
     text-align: center;
-    background-color: lightblue;
-    position: fixed;
+    background-color: #495fa6; 
+    position: relative; /* 2/9: Fixed footer following */
     bottom: 0;
     left: 0;
     right: 0;
