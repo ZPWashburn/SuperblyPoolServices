@@ -42,6 +42,16 @@ body {
     overflow: auto;
 }
 
+#contactustext {
+    font-size: large;
+}
+
+
+#textcolor {
+    font-size:x-large;
+    color: #495fa6;
+}
+
 #logo {
     text-align: center;
     margin: 2%;
