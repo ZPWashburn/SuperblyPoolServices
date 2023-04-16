@@ -45,14 +45,15 @@ body {
 
 body::after {
     content: "";
-    background: url("img/pool.jpg") no-repeat;
-    background-size: cover;
+    background: url("img/pool.jpg");
+    background-size: contain;
+    background-repeat:repeat;
     opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
+    position: fixed; /*I finally was able to fix the background!*/
     z-index: -1;   
 }
 
