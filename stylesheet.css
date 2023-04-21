@@ -46,7 +46,10 @@ body {
 body::after {
     content: "";
     background: url("img/pool.jpg");
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-repeat:repeat;
     opacity: 0.1;
     top: 0;
@@ -61,6 +64,13 @@ body::after {
     font-size: large;
 }
 
+.blinkingtext {
+    animation: blink 3s linear infinite;
+  }
+  
+@keyframes blink {
+    50% {opacity: 0;}
+  }
 
 #textcolor {
     font-size:x-large;
